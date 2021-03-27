@@ -6,7 +6,11 @@ namespace Test_Projects
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int age; 
+
+            Console.WriteLine("How old are you?");
+            age = int.Parse(Console.ReadLine()); // Get's user input as "age" variable
+            Console.WriteLine("You are " + age + " years old");
         }
     }
 }
